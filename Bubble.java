@@ -24,7 +24,7 @@ a[j+1]=t;
 }
 }
 }
-System.out.println("The sorted array in ascending order is");
+System.out.println("The sorted array is");
 for(int i=0;i<n;i++)
 {
 System.out.print(a[i]+" ");
