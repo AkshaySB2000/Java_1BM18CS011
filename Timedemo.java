@@ -83,7 +83,7 @@ case 3:{ System.out.println("Enter hours,minutes and seconds");
          }
 }
 System.out.println("Enter y to continue and n to exit");
-char ch=sc.next().charAT(0);
+char ch=sc.next().charAt(0);
 if(ch=='n' && ch=='N');
 break;
 }
