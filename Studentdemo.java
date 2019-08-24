@@ -72,7 +72,7 @@ System.out.println("Name = "+name);
 System.out.println("Marks in "+n+" subjects is as follows");
 for(int i=0;i<n;i++)
 {
-System.out.println(marks[i]+" ");
+System.out.print(marks[i]+" ");
 }
 System.out.print("SGPA = "+sgpa);
 }
