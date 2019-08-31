@@ -12,10 +12,10 @@ Point(int x,int y)
 this.x=x;
 this.y=y;
 }
-Point(Point ob)
+Point(Point p)
 {
-x=ob.x;
-y=ob.y;
+x=p.x;
+y=p.y;
 }
 double distance(Point p)
 {
