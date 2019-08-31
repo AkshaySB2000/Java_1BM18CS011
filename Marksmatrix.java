@@ -19,7 +19,7 @@ m[i][j]=se.nextFloat();
 }
 }
 }
-void calculate()
+void calc()
 {
 float sum=0;
 float avg=0;
@@ -65,7 +65,7 @@ public static void main(String args[])
 {
 Marks m1=new Marks();
 m1.input();
-m1.calculate();
+m1.calc();
 m1.print();
 }
 }
