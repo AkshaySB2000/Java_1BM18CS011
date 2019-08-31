@@ -17,13 +17,13 @@ Matrix(int p,int q)
 {
 r=p;
 c=q;
-Scanner se=new Scanner(System.in);
+Scanner sc=new Scanner(System.in);
 System.out.println("Enter elements in Matrix");
 for(i=0;i<r;i++)
 {
 for(j=0;j<c;j++)
 {
-m[i][j]=se.nextFloat();
+m[i][j]=sc.nextFloat();
 }
 }
 }
