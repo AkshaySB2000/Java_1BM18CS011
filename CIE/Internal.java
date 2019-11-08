@@ -3,6 +3,10 @@ import java.util.*;
 public class Internal extends Student
 {
 public int inter[];
+public Internal()
+{
+inter = new int[5];
+}
 public void getdata()
 {
 super.getdata();

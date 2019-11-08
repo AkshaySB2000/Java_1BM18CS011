@@ -4,6 +4,10 @@ import CIE.*;
 public class External extends Student
 {
 public int exter[];
+public External()
+{
+exter = new int[5];
+}
 public void getdata()
 {
 Scanner sc = new Scanner(System.in);
